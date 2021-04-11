@@ -1,1 +1,13 @@
-Debian: {}
+Debian:
+  dependencies:
+    - mbuffer
+    - libcapture-tiny-perl
+
+RedHat:
+  dependencies:
+    - perl-Capture-Tiny
+
+Suse:
+  dependencies:
+    - mbuffer
+    - perl-Capture-Tiny
