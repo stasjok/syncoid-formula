@@ -1,3 +1,5 @@
+# vim: ft=yaml
+
 syncoid:
   lookup:
     # A directory where to copy syncoid script
