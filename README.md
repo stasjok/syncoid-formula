@@ -22,8 +22,10 @@ See `pillar.example` file for configuration examples.
 
 This formula installs included syncoid script.
 
-Note: syncoid script here is v2.1.0 with merged [Add target snapshot
-deletion](https://github.com/jimsalterjrs/sanoid/pull/523) pull request.
+**Note**: syncoid script here is v2.1.0 with the following PRs merged:
+
+* [Add target snapshot deletion](https://github.com/jimsalterjrs/sanoid/pull/523)
+* [implemented option for direct connection via socat and busybox nc](https://github.com/jimsalterjrs/sanoid/pull/513)
 
 ## Available states
 
