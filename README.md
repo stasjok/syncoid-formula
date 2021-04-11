@@ -20,7 +20,7 @@ See `pillar.example` file for configuration examples.
 
 ## Special notes
 
-This formula installs included syncoid script.
+This formula installs included syncoid script. Tested only on Debian.
 
 ## Available states
 
@@ -32,7 +32,7 @@ This state includes `syncoid.install` state.
 
 ### syncoid.install
 
-This state installs syncoid script.
+This state installs syncoid script and its dependencies.
 
 ### syncoid.clean
 

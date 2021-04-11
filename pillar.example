@@ -1,3 +1,9 @@
 syncoid:
-  # A directory where to copy syncoid script
-  bin_dir: /usr/local/bin
+  lookup:
+    # A directory where to copy syncoid script
+    bin_dir: /usr/local/bin
+    # Packages required for syncoid
+    dependencies:
+      - pv
+      - mbuffer
+      - libcapture-tiny-perl

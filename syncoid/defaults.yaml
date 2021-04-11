@@ -1,2 +1,5 @@
 syncoid:
   bin_dir: /usr/local/bin
+  dependencies:
+    - mbuffer
+    - libcapture-tiny-perl
