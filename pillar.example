@@ -1,0 +1,3 @@
+syncoid:
+  # A directory where to copy syncoid script
+  bin_dir: /usr/local/bin
