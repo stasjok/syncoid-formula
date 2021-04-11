@@ -14,3 +14,5 @@ syncoid-bin-file-managed:
     - group: root
     - mode: 755
     - makedirs: yes
+    - require:
+      - pkg: syncoid-dependencies-pkg-installed
